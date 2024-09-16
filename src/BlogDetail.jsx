@@ -18,7 +18,7 @@ const BlogDetail = () => {
     setModalIsOpen(true);
   };
 
-  const closeModal = () => {
+  const closeModal = () => { 
     setModalIsOpen(false);
   };
 

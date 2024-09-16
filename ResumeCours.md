@@ -30,6 +30,8 @@ useParams est un hook fourni par react-router-dom qui permet d'accéder aux para
 -  Utilisation de react-i18next pour traduction de langue 
 - utilisation de localStorage 
 - Utilisation de React modal
+- Methode DELETE pour supprimier article
+- Methode PUT pout update article
 
 
 

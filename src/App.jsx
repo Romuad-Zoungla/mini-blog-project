@@ -7,6 +7,7 @@ import AjouterArticle from './Ajouter';
 import BlogDetail from './BlogDetail';
 import LanguageSwitcher from './LanguageSwitcher';
 import EditBlog from './EditBlog';
+import PageNotFound from './PageNotFound';
 function App() {
 
   return (  
@@ -20,6 +21,7 @@ function App() {
            <Route path='/Ajouter' element={<AjouterArticle />}/>
            <Route path='/blogs/:id' element={<BlogDetail/>}/>
            <Route path='/blogs/edit/:id' element={<EditBlog />} />
+           <Route path='*' element={<PageNotFound />} /> 
 
 
         </Routes>

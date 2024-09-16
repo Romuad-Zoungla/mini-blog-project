@@ -10,7 +10,7 @@ const BlogList = ({blogs, title}) => {
           <Link to={`/blogs/${blog.id}`} className="blog-titre">Le titre : {blog.title}</Link>
           <small className="blog-publication-date">Publier le: {blog.date}</small> 
           <p className="blog-author">Publier par : {blog.author}</p>
-                       <button className="supp" >Supprimer</button>
+        
         </div>
        )) 
         }
