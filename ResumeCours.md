@@ -21,4 +21,18 @@ Créer un hook personnalisé en React permet de réutiliser des morceaux de logi
 useParams est un hook fourni par react-router-dom qui permet d'accéder aux paramètres dynamiques dans une URL. Il est essentiel dans les situations où vous avez une route qui inclut des paramètres variables, comme l'ID d'un élément (exemple : /blogs/:id).
 ) 
 
+- Réutiliser un hook personnalisé
+- Controler un champ de formulaire (onCgange(), onSubmit(), );
+-  Utulisation de Post requests pour envoyer les données vers le serveur
+- Chargement de page.
+- Gestion notification message avec npm install react-toastify
+- useNavigate(). 
+-  Utilisation de react-i18next pour traduction de langue 
+- utilisation de localStorage 
+- Utilisation de React modal
+
+
+
+
+
 

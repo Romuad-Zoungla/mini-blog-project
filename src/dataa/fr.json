@@ -1,0 +1,9 @@
+{
+  "navbar": {
+    "menu1": "Accueil",
+    "menu2": "Créer un Article",
+    "loading": "Chargement des articles...",
+    "menu4": "A propos"
+  
+  }
+}

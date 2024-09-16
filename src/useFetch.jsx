@@ -6,7 +6,7 @@ const useFetch = (url) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Crée un AbortController pour gérer l'annulation de la requête
+    // Crée un AbortController pour gérer l'annulation de la requête 
     const controller = new AbortController();
     const signal = controller.signal;
 
@@ -20,7 +20,7 @@ const useFetch = (url) => {
         setData(result);
       } catch (err) {
         if (err.name === "AbortError") {
-          console.log("Requête annulée");
+          console.log("Requête annulée"); 
         } else {
           setError(err.message);
         }
@@ -28,7 +28,6 @@ const useFetch = (url) => {
         setLoading(false);
       }
     }; 
-
     setTimeout(() => {
       fetchData();
     }, 2000);
